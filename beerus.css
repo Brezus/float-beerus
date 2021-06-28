@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(31, 65, 63);
+    margin: 0;
+    padding: 0;
+}
+.floaty-cont {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 80vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    height: 50vh;
+    max-width: 100%;
+    position: relative;
+
+    animation: beerus 3s ease-out infinite;
+}
+@keyframes beerus {
+    50% {
+        transform: translate(0, 20px);
+    }
+}
+.ellipse{
+    background-color: rgb(24, 7, 31);
+    height: 30px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation: shadow 3s ease-out infinite;
+
+}
+/* @keyframes shadow {
+    0% {
+        width: 20%;
+      }
+      50% {
+        width: 18%;
+      }
+      100% {
+        width: 20%;
+      }
+} */
+@keyframes shadow {
+    0% {
+        transform: scaleX(.95);
+        
+      }
+      50% {
+        transform: scaleX(.5);
+      }
+      100% {
+        transform: scaleX(.95);
+      }
+}
