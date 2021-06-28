@@ -17,7 +17,6 @@ img {
   height: 50vh;
   max-width: 100%;
   position: relative;
-
   animation: beerus 3s ease-out infinite;
 }
 @keyframes beerus {
@@ -31,7 +30,7 @@ img {
   width: 150px;
   border-radius: 50%;
   position: absolute;
-  bottom: 15vh;
+  bottom: 100px;
   left: 0;
   right: 0;
   margin-left: auto;
